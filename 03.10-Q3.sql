@@ -1,6 +1,6 @@
 /*create database db_escola*/
-use db_escola;
-/*create table tb_alunos (
+/*use db_escola;
+create table tb_alunos (
 id bigint (5) auto_increment,
 nome varchar(30) not null,
 idade bigint(11) not null,
@@ -16,11 +16,11 @@ insert into tb_alunos(nome,idade,sala,nota) value ("Pricilla",8,2050,9.0);
 insert into tb_alunos(nome,idade,sala,nota) value ("Rachel",9,2500.00,9.5);
 insert into tb_alunos(nome,idade,sala,nota) value ("Lívia",8,2050,5.5);
 
-select * from  tb_alunos;*/
+select * from  tb_alunos;
 
 select * from tb_alunos where nota < 7.0;
 
-select * from tb_alunos where nota > 7.0;
+select * from tb_alunos where nota > 7.0;*/
 
 
 
